@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    background-color: #222;
+    color: #FFF;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlinks > li {
+    min-width: 100px;
+}
